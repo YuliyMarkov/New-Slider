@@ -1,0 +1,46 @@
+.legendInfo {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  .legendPhoto {
+    display: block;
+    flex-basis: 200px;
+    flex-grow: 1;
+    max-width: 399px;
+    margin-right: calc(4.3vw - 3.984px);
+  }
+  .legendEmoji {
+    width: 36px;
+  }
+  
+  .skills {
+    display: grid;
+    grid-template-columns: repeat(2, 250px);
+    grid-template-rows: repeat(2, 104px);
+    margin-top: calc(5.5vw + 19.5px);
+  }
+  .skill {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  
+  }
+  
+  .skilltext {
+    font-size: calc(0.5vw + 13.95px);
+    font-weight: 400;
+    line-height: 140%;
+  }
+  
+  .h4 {
+    font-size: calc(1.1vw + 33px);
+    font-weight: 700;
+    line-height: 121%;
+    margin-bottom: calc(1.1vw + 5.9px);
+  }
+  .legendContainer {
+    width: calc(26vw + 230.45px);
+    gap: calc(1.1vw + 5.9px);
+  }
